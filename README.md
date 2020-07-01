@@ -1,10 +1,24 @@
-<!--
- * @Date: 2020-07-01 13:47:31
- * @LastEditTime: 2020-07-01 13:58:47
- * @Author: WangYongJie
- * @Work-email: wangyongjie2@gome.com.cn
- * @Private-email: admin@xiaodongxier.com
---> 
-# Travel
+# travel
 
-慕课网vue课程&amp;去哪儿网 
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
