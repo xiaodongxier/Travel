@@ -1,3 +1,10 @@
+<!--
+ * @Date: 2020-07-01 14:45:09
+ * @LastEditTime: 2020-07-01 17:59:12
+ * @Author: WangYongJie
+ * @Work-email: wangyongjie2@gome.com.cn
+ * @Private-email: admin@xiaodongxier.com
+--> 
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
