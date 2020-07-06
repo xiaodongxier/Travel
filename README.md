@@ -1,3 +1,10 @@
+<!--
+ * @Date: 2020-05-25 14:19:33
+ * @LastEditTime: 2020-07-06 15:52:39
+ * @Author: WangYongJie
+ * @Work-email: wangyongjie2@gome.com.cn
+ * @Private-email: admin@xiaodongxier.com
+--> 
 # travel
 
 > A Vue.js project
