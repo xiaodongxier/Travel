@@ -1,17 +1,16 @@
-<!--
- * @Date: 2020-07-16 17:58:13
- * @LastEditTime: 2020-07-16 18:01:12
- * @Author: WangYongJie
- * @Work-email: wangyongjie2@gome.com.cn
- * @Private-email: admin@xiaodongxier.com
---> 
 <template>
-  <div>123</div>
+  <div>
+    <h2 class="home">Home</h2>
+    <router-link to="/list">列表</router-link>
+  </div>
 </template>
+
 <script>
 export default {
-  name: "Home"
-};
+  name: 'Home'
+}
 </script>
+
 <style>
+
 </style>
