@@ -24,15 +24,15 @@ export default{
       },
       swiperList: [{
         id: '001',
-        imgUrl: 'https://cdn.jsdelivr.net/gh/xiaodongxier/figurebed@master/blog/background/0.jpg'
+        imgUrl: 'http://oss.xiaodongxier.com/gome/test/20200501.jpg'
       },
       {
         id: '002',
-        imgUrl: 'https://cdn.jsdelivr.net/gh/xiaodongxier/figurebed@master/blog/background/1.jpg'
+        imgUrl: 'http://oss.xiaodongxier.com/gome/test/20200502.jpg'
       },
       {
         id: '003',
-        imgUrl: 'https://cdn.jsdelivr.net/gh/xiaodongxier/figurebed@master/blog/background/2.jpg'
+        imgUrl: 'http://oss.xiaodongxier.com/gome/test/20200503.jpg'
       }]
     }
   }
