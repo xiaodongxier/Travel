@@ -1,8 +1,8 @@
 <template>
   <div class="icons">
     <swiper>
-      <swiper-slide>
-        <div class="icon" v-for="item of iconList" :key="item.id">
+      <swiper-slide v-for="(page,index) of pages" :key="index">
+        <div class="icon" v-for="item of page" :key="item.id">
           <div class="icon-img">
             <img class="icon-img-content" :src="item.imgUrl" alt="">
           </div>
@@ -64,12 +64,26 @@ export default{
         desc: '动植物园'
       }]
     }
+  },
+  computed: {
+    pages () {
+      const pages = []
+      this.iconList.forEach(function (item, index) {
+        const page = Math.floor(index / 8)
+        if (!pages[page]) {
+          pages[page] = []
+        }
+        pages[page].push(item)
+      })
+      return pages
+    }
   }
 }
 </script>
 
 <style lang="stylus" scoped>
 @import '~styles/varibles.styl';
+@import '~styles/mixins.styl';
 .icons >>> .swiper-container
   width 100%
   height 0
@@ -102,4 +116,5 @@ export default{
     line-height .44rem
     text-align center
     color $darkTextColor
+    ellipsis()
 </style>
