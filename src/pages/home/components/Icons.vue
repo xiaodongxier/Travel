@@ -88,6 +88,8 @@ export default{
   width 100%
   height 0
   padding-bottom 50%
+.icons
+  padding-top .1rem
 .icon
   width 25%
   height 0
