@@ -2,7 +2,7 @@
  * @Author: wangyongjie
  * @Date: 2020-08-05 21:34:37
  * @LastEditors: wangyongjie
- * @LastEditTime: 2020-08-06 23:05:50
+ * @LastEditTime: 2020-08-08 21:53:55
  * @e-mail: admin@xiaodongxier.com
  * @FilePath: /Travel/src/pages/home/components/Recommend.vue
 -->
